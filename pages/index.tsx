@@ -39,7 +39,7 @@ export default function Home() {
         </p>
 
         <footer className='bg-gradient-to-b lg:bg-gradient-to-br from-yellow-100/30 to-yellow-300/5 dark:from-gray-500/30 dark:to-gray-500/30 bg-clip-text text-transparent'>
-          Lightbulb made by
+          Light bulb made by
           <a
             href='https://codepen.io/joebocock/pen/eYZKOjR'
             className='ml-2 bg-gradient-to-b lg:bg-gradient-to-br opacity-90 hover:opacity-100 from-yellow-100/30 to-yellow-300/5 dark:from-gray-500/30 dark:to-gray-500/30 bg-clip-text text-transparent'
