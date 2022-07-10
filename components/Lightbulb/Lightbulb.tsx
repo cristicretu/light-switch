@@ -38,11 +38,11 @@ export default function Lightbulb() {
   useEffect(() => {
     setTimeout(() => {
       setClickedFirstTime(true)
-    }, 5000)
+    }, 2500)
   }, [])
 
   useEffect(() => {
-    if (clicks > 4) {
+    if (clicks > 6) {
       setBroken(true)
       destroy()
       setTheme('dark')
