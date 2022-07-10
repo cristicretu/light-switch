@@ -3,7 +3,7 @@ import Container from 'components/Container'
 export default function Home() {
   return (
     <Container>
-      <div className='inset-0 max-w-2xl mx-auto mt-64 md:mt-48 flex flex-col gap-8'>
+      <div className='inset-0 max-w-2xl mx-auto mt-64 md:mt-48 flex flex-col gap-8 p-4'>
         <h1 className='text-4xl font-bold bg-gradient-to-b lg:bg-gradient-to-r from-yellow-300 to-yellow-900/50 dark:from-gray-500/60 dark:to-gray-500/60 bg-clip-text text-transparent'>
           Human Interface Guidelines: The Apple Desktop Interface
         </h1>
