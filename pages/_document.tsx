@@ -57,7 +57,7 @@ class MyDocument extends Document {
             media='(prefers-color-scheme: dark)'
           />
         </Head>
-        <body className='bg-white dark:bg-gray-900'>
+        <body className='bg-gray-1000 dark:bg-gray-1000'>
           <Main />
           <NextScript />
         </body>
