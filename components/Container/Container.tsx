@@ -49,7 +49,7 @@ export default function Container(props: any) {
           )}
         </Head>
 
-        <div className='absolute left-48'>
+        <div className='absolute left-12 md:left-48'>
           <Lightbulb />
         </div>
         <main className={cn('rounded-lg')}>{children}</main>
