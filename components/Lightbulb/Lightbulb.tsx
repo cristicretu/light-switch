@@ -45,8 +45,9 @@ export default function Lightbulb() {
     if (clicks > 4) {
       setBroken(true)
       destroy()
+      setTheme('dark')
     }
-  }, [clicks, destroy])
+  }, [clicks, destroy, setTheme])
 
   // We can change the theme after the component has mounted
   useEffect(() => {
