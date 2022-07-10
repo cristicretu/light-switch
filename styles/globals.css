@@ -144,8 +144,6 @@
   body {
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: center;
     min-height: 100vh;
     background-color: black;
   }

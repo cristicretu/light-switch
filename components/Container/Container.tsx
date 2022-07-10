@@ -1,6 +1,3 @@
-import { useEffect, useState } from 'react'
-
-import { useTheme } from 'next-themes'
 import { useRouter } from 'next/dist/client/router'
 import Head from 'next/head'
 
@@ -13,10 +10,8 @@ export default function Container(props: any) {
   const router = useRouter()
 
   const meta = {
-    title: 'Template name',
-    description: 'Template description',
-    image:
-      'https://cdn.discordapp.com/attachments/797485737272541250/893912493255176192/UnicornVectorGradient_7.png',
+    title: 'Light switch',
+    description: 'Light switch',
     type: 'website',
     ...customMeta,
   }
@@ -25,7 +20,7 @@ export default function Container(props: any) {
     <>
       <div
         className={cn(
-          'relative h-full min-h-screen w-[100vw]',
+          'relative  w-[100vw]',
           'motion-reduce:transition-none motion-reduce:transform-none'
         )}
       >
@@ -33,11 +28,11 @@ export default function Container(props: any) {
           <meta name='robots' content='follow, index' />
           <meta
             property='og:url'
-            content={`https://template.cretu.dev/${router.asPath}`}
+            content={`https://light.cretu.dev/${router.asPath}`}
           />
           <link
             rel='canonical'
-            href={`https://template.cretu.dev/${router.asPath}`}
+            href={`https://light.cretu.dev/${router.asPath}`}
           />
           <meta property='og:type' content={meta.type} />
           <meta property='og:site_name' content='Cristian Crețu' />
