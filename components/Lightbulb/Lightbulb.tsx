@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 
 import { useTheme } from 'next-themes'
 import useSound from 'use-sound'
+import useInterval from 'lib/useInterval'
 
 export default function Lightbulb() {
   const [on] = useSound('/static/audio/on.mp3')
@@ -35,19 +36,17 @@ export default function Lightbulb() {
     handleClick()
   }
 
-  useEffect(() => {
-    setTimeout(() => {
-      setClickedFirstTime(true)
-    }, 2500)
-  }, [])
+  useInterval(() => {
+    setClickedFirstTime(true)
+  }, 1250)
 
   useEffect(() => {
-    if (clicks > 6) {
+    if (clicks > 4 && !clickedFirstTime) {
       setBroken(true)
       destroy()
       setTheme('dark')
     }
-  }, [clicks, destroy, setTheme])
+  }, [clickedFirstTime, clicks, destroy, setTheme])
 
   // We can change the theme after the component has mounted
   useEffect(() => {
