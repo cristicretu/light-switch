@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 
 import { useTheme } from 'next-themes'
 import useSound from 'use-sound'
+
 import useInterval from 'lib/useInterval'
 
 export default function Lightbulb() {

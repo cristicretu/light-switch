@@ -1,5 +1,6 @@
-import Container from 'components/Container'
 import { useRef } from 'react'
+
+import Container from 'components/Container'
 
 export default function Home() {
   const parentDiv = useRef<HTMLDivElement>(null)
