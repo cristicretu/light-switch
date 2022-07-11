@@ -27,7 +27,7 @@ export default function Home() {
         </p>
         <p className='text-lg bg-gradient-to-b lg:bg-gradient-to-br from-yellow-100/60 to-yellow-300/20 dark:from-gray-500/30 dark:to-gray-500/30 bg-clip-text text-transparent'>
           To take advantage of this prior experience, computer designers
-          frequendy use metaphors for computer processes that correspond to the
+          frequently use metaphors for computer processes that correspond to the
           everyday world that people are comfortable with. The desktop itself is
           the primary metaphor for the Apple Desktop Interface. It appears to be
           a surface on which users can keep tools and documents. Yet many of the
